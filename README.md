@@ -23,7 +23,7 @@ npm i typescript -g
 tsc main.ts -w
 ```
 
-## 3. Congiguration
+## 3. Configuration
 
 ### Configuration code:
 
