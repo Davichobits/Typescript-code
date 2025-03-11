@@ -1,7 +1,10 @@
-const mario = {
-  coins: 10,
-  points: 250,
-  status: 'FieryMario',
-}
+let userName = 'David';
 
-console.log(mario.points);
+console.log(userName);
+
+let a: number = 12;
+let b: number = 6;
+let c: number = 2;
+
+console.log(a/c);
+console.log(c*b);
