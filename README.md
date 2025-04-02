@@ -74,3 +74,35 @@ const sum = (a, b) => {
   return a + b; 
 };
 ```
+
+## 4. Arrays and Objects
+
+### Arrays:
+
+```typescript
+const numbers: number[] = [1, 2, 3, 4, 5]; // Array of numbers
+```
+
+### Tuplas:
+
+```typescript
+let myTuple: [string, number, boolean] = ['diez', 30, true ];
+
+let myArray: (string | number | boolean)[] = ['diez', 30, true ]
+```
+
+### Objects:
+
+```typescript
+const person: { name: string; age: number } = {
+  name: 'John',
+  age: 30,
+};
+```
+### Objects with optional properties:
+
+```typescript 
+const person: { name: string; age?: number } = {
+  name: 'John',
+};
+```
