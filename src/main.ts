@@ -1,10 +1,13 @@
-let userName = 'David';
+let userName: string = 'David';
+let age: number;
+let isLoading: boolean; // verdadero o falso
+let address: string | number; // union type
+let response: any;
 
-console.log(userName);
+function sum(a:number, b:number): number{
+  return a + b;
+}
 
-let a: number = 12;
-let b: number = 6;
-let c: number = 2;
+const sumArroy = (a:number, b:number):number => a + b;
 
-console.log(a/c);
-console.log(c*b);
+const expression: RegExp = /\w+\s/g;

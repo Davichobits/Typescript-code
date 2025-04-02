@@ -49,3 +49,28 @@ tsc --init
 ```bash
 tsc -w
 ```
+
+## 4. Basic Types
+
+TS -> Statically typed language (types are checked at COMPILE time)
+Js -> Dynamically typed language (types are checked at RUN time)
+
+Typescript Benefits:
+
+- Self-documenting
+- Catch errors in development
+- Great for teams
+
+### Basic Types:
+- string
+- number
+- boolean
+- any
+
+### Basic Types on functions:
+
+```typescript
+const sum = (a, b) => {
+  return a + b; 
+};
+```
